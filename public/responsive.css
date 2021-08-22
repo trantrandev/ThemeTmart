@@ -1,0 +1,318 @@
+ /*Ipad ngang (1024 x 768) */
+ @media screen and (max-width: 1024px){
+ 	section.base-slider {
+ 		min-height: 0;
+ 	}
+
+ 	/*==================  DETAIL_PRODUCT ================ */
+ 	#detail_product .thumb-wp a#main-thumb {
+ 		display: block;
+ 		max-width: 400px;
+ 	}
+ 	#detail_product a#main-thumb img {
+ 		max-width: 385px;
+ 		max-height: 306px;
+ 	}
+ }
+
+ /*Ipad dọc (768x 1024) */
+ @media screen and (max-width: 768px) {
+ 	/*================= HOME =============== */
+ 	.left-back {
+ 		left: -375px!important;
+ 	}
+ 	#top-header ul.list-info li.account, #top-header ul.list-info li.hotline{
+ 		display: none;
+ 	}
+
+ 	#top-header .container {
+ 		flex-wrap: wrap;
+ 	}
+
+ 	#top-header button.nav-toggle {
+ 		order: 1;
+ 		display: block;
+ 	}
+ 	#top-header a.logo {
+ 		order: 2;
+ 	}
+ 	#top-header ul.list-info {
+ 		order: 3;
+ 	}
+ 	#top-header form.form-search{
+ 		order: 4;
+ 	}
+
+ 	#top-header form.form-search,
+ 	#top-header form.form-search input {
+ 		width: 100%;
+ 	}
+
+ 	#header #main-navigation {
+ 		display: none;
+ 	}
+
+ 	/* ---------- WP-CONTENT -------*/
+ 	.base-slider .slider {
+ 		display: none;
+ 	}
+
+ 	section.base-slider .home-slider {
+ 		flex: 0 0 100%;
+ 		max-width: 100%;
+ 	}
+
+ 	.category .tab-content-wrap .banner-event  {
+ 		display: none;
+ 	}
+
+ 	.category .tab-content-wrap ul.tab-item {
+ 		flex: 0 0 100%;
+ 		max-width: 100%;
+ 	}
+
+ 	.category .tab-content-wrap ul.tab-item:hover .owl-nav button {
+ 		display: block!important;
+ 	}
+
+ 	.category ul.tab-item li.item .product-thumbnail {
+ 		height: 163px;
+ 	}
+
+ 	.list-blog {
+ 		flex-wrap: wrap;
+ 	}
+ 	.list-blog .big-blog {
+ 		flex: 0 0 100%;
+ 	}
+ 	.list-blog .small-blog {
+ 		margin-top: 10px;
+ 		flex: 0 0 100%;
+ 	}
+
+ 	#footer .get-mail {
+ 		flex-wrap: wrap;
+ 	}
+ 	#footer .get-mail .title-mail {
+ 		flex: 0 0 100%;
+ 	}
+ 	#footer .get-mail .box-mail {
+ 		flex: 0 0 100%;
+ 		margin-top: 15px;
+ 		padding-left: 0;
+ 	}
+ 	#footer .box.contact .socail ul li:nth-child(4) {
+ 		padding-right: 0;
+ 	}
+ 	#footer .box.contact .socail ul li:nth-child(5) {
+ 		padding-left: 0;
+ 		margin-top: 5px;
+ 	}
+ 	#footer .box.contact .socail ul li:nth-child(6) {
+ 		margin-top: 5px;
+ 	}
+
+ 	/* =================== Category-product ================ */
+ 	.collection-product {
+ 		margin-left: 0;
+ 	}
+ 	#category_product .category-product ul.list-product li.item {
+ 		flex: 0 0 33.3%;
+ 		max-width: 33.3%;
+ 	}
+
+ 	/* ============================ DETAIL_PRODUCT =============== */
+ 	#detail_product a#main-thumb img {
+ 		max-width: 278px;
+ 		max-height: 306px;
+ 	}
+
+ 	/* ========================== SALE_PRODUCT ============= */ 	
+ 	#sale_product .category-product ul.list-product li.item {
+ 		flex: 0 0 50%;
+ 		max-width: 50%;
+ 	}
+
+ 	/* ============================= CART_PRODUCT ===================== */
+ 	#cart_product #info-cart-wp table thead tr td {
+ 		padding: 5px;
+ 	}
+ }
+ 
+ /* small tablet 600x800 */
+ @media screen and (max-width: 600px){
+ 	/* ================ HOME =================== */
+ 	#wp-responsive {
+ 		max-width: 280px;
+ 	}
+ 	#header #top-header a.logo {
+ 		max-width: 150px;
+ 	}
+
+ 	.category ul.tab-title {
+ 		display: none;
+ 	}
+
+ 	/* ------ footer -------- */
+ 	#footer .get-mail {
+ 		padding: 10px;
+ 	}
+ 	#footer .feature-cat .box:nth-child(3),#footer .feature-cat .box:nth-child(4) {
+ 		display: none;
+ 	}
+ 	#footer .feature-cat .box {
+ 		flex: 0 0 50%;
+ 		max-width: 50%;
+ 	}
+ 	#footer .box.contact .socail ul li:nth-child(5) {
+ 		margin-top: 0px;
+ 		padding-left: 10px;
+ 	}
+ 	#footer .box.contact .socail ul li:nth-child(6) {
+ 		margin-top: 0px;
+ 	}
+
+ 	/* ============= Category-product ================ */
+ 	#category_product .sidebar {
+ 		display: none;
+ 	}
+ 	#category_product .collection-product {
+ 		flex: 0 0 100%;
+ 		max-width: 100%;
+ 	}
+
+ 	/* ===================== DETAIL_PRODUCT ================== */
+ 	#detail_product .section-detail-product {
+ 		flex-wrap: wrap;
+ 	}
+ 	#detail_product .thumb-wp a#main-thumb {
+ 		max-width: 100%;
+ 	}
+
+ 	#detail_product .section-detail-product .thumb-wp {
+ 		flex: 0 0 100%;
+ 		max-width: 100%;
+ 	}
+ 	#detail_product .section-detail-product .product-info {
+ 		max-width: 100%;
+ 		flex: 0 0 100%;
+ 	}
+ 	#detail_product a#main-thumb img {
+ 		max-width: 100%;
+ 		max-height: 182px;
+ 	}
+
+ 	/* ================ SALE_PRODUCT ================= */
+ 	#sale_product .sidebar {
+ 		display: none;
+ 	}
+
+ 	#sale_product .collection-product {
+ 		flex: 0 0 100%;
+ 		max-width: 100%;
+ 	}
+ 	
+ }
+
+ /* Iphone X, 6 7 8 */
+ @media screen and (max-width: 415px){
+ 	#header #top-bar {
+ 		text-align: center;
+ 	}
+ 	.category .section-title h2 {
+ 		font-size: 15px;
+ 	}
+
+ 	.wp-category .section-banner {
+ 		margin-bottom: 0;
+ 	}
+
+ 	.category .tab-content-wrap {
+ 		padding-bottom: 0;
+ 	}
+ 	.category.selling-products .tab-content-wrap ul.tab-item  {
+ 		margin-bottom: 0;
+ 	}
+ 	.category ul.tab-item li.item  {
+ 		border: none;
+ 	}
+ 	.category ul.tab-item li.item .product-box .product-info {
+ 		padding-bottom: 0;
+ 	}
+
+ 	.category ul.tab-item li.item .product-thumbnail {
+ 		justify-content: space-around;
+ 		height: 155px;
+ 	}
+
+ 	.section-banner a{
+ 		display: block;
+ 		max-height: 100px;
+ 	}
+ 	/* blog */
+ 	.list-blog .big-blog .blog-item {
+ 		flex-wrap: wrap;
+ 	}
+ 	.big-blog a.thumb {
+ 		flex: 0 0 100%;
+ 	}
+ 	.big-blog .index-blog {
+ 		flex: 0 0 100%;
+ 	}
+ 	.big-blog .index-blog .content-blog {
+ 		display: none;
+ 	}
+ 	.list-blog .small-blog {
+ 		padding-left: 0;
+ 	}
+
+ 	#footer .box .box-head h3 {
+ 		font-size: 14px;
+ 	}
+ 	#footer .get-mail {
+ 		padding: 0;
+ 	}
+ 	#footer .get-mail .title-mail {
+ 		margin-top: 10px;
+ 	}
+ 	#footer .get-mail .box-mail form {
+ 		flex-wrap: wrap;
+ 	}
+ 	#footer .get-mail .box-mail form input {
+ 		flex: 0 0 100%;
+ 		margin-bottom: 10px;
+ 	}
+ 	#footer .get-mail .box-mail form button {
+ 		width: 100%;
+ 	}
+
+
+ 	/* ================== Category-product ==========*/
+ 	.collection-product .category-product .sort-cate ul li input {
+ 		display: block;
+ 	}
+ 	#category_product .category-product ul.list-product li.item {
+ 		flex: 0 0 50%;
+ 		max-width: 50%;
+ 	}
+
+ 	/* ================= DETAIL_PRODUCT =============== */
+ 	#detail_product .section-detail-product .product-info h1.product-name {
+ 		font-size: 16px;
+ 	}
+
+ 	/* ============================= CART_PRODUCT ===================== */
+ 	#cart_product #info-cart-wp table tbody tr td {
+ 		padding: 5px;
+ 	}
+
+ }
+
+ /* 320x 568 iphone SE */
+ @media screen and (max-width: 375px){
+ 	
+
+ }
+ /*Smartphone nhỏ */
+ @media screen and (max-width: 240px){}
+

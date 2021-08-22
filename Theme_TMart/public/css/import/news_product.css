@@ -1,0 +1,12 @@
+#news_product .category{
+	background-color: #fff;
+	padding: 10px;
+}
+
+#news_product .list-blog .big-blog {
+	flex: 0 0 100%;
+}
+
+#news_product .list-blog .big-blog .blog-item {
+	margin-bottom: 10px;
+}

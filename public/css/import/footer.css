@@ -1,0 +1,210 @@
+
+/* =========================== FOOTER ===================== */
+#footer {
+	background: #fff;
+}
+
+#footer .get-mail {
+	padding: 50px 10px 30px 10px;
+	border-bottom: 1px solid #dedede;
+	margin-bottom: 20px;
+}
+#footer .get-mail .title-mail {
+	flex: 0 0 42%;
+	padding-right: 10px;
+}
+
+#footer .get-mail .title-mail img.ico-mail {
+	margin-right: 15px;
+}
+
+#footer .get-mail .title-mail .right-title {
+	padding-top: 15px;
+}
+
+#footer .get-mail .title-mail .right-title h3{
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #231f20;
+	margin: 0;
+}
+
+#footer .get-mail .title-mail .right-title p{
+	line-height: normal;
+	color: #231f20;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+#footer .get-mail .box-mail {
+	flex: 0 0 58%;
+	padding: 0 0 10px;
+	padding-left: 10px;
+}
+
+#footer .get-mail .box-mail form input{
+	border-radius: 3px;
+	margin-bottom: 0px;
+	padding: 9px 20px;
+	font-size: 14px;
+	color: #231f20;
+	border: 1px solid #ebebeb;
+	margin-right: 15px;
+	outline: none;
+	transition: all 0.25s;
+	width: 80%;
+}
+#footer .get-mail .box-mail form input:focus {
+	border: 1px solid #ef4339;
+}
+#footer .get-mail .box-mail form button {
+	outline: none;
+	border: none;
+	background: #ef4339;
+	color: #fff;
+	font-size: 16px;
+	padding: 8px;
+	width: 20%;
+}
+
+#footer .get-mail .box-mail .mailchip-alerts {
+	margin-top: 10px;
+	color: #333;
+}
+
+/* feature-cat */
+#footer .feature-cat {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#footer .feature-cat .box {
+	flex:  0 0 25%;
+	max-width: 25%;
+	padding: 0 10px;
+}
+#footer .feature-cat .box:first-child {
+	padding-left: 0;
+}
+#footer .feature-cat .box:last-child {
+	padding-right: 0;
+}
+
+#footer .box .box-head h3{
+	font-size: 16px;
+	font-weight: 600;
+	color: #4a4a4a;
+	margin: 0 0 12px;
+	padding-bottom: 0;
+	display: block;
+	text-transform: uppercase;
+}
+
+#footer .box .box-body ul li a {
+	color: #231;
+	text-decoration: none;
+	padding: 2px 0;
+	display: block;
+	transition: all 0.25s;
+}
+
+#footer .box .box-body ul li:hover a {
+	color: #ef4339;
+}
+
+#footer .box.contact .box-contact {
+	border-bottom: 1px solid #dedede;
+	padding-bottom: 5px;
+}
+#footer .box.contact .box-contact .contact {
+	margin-bottom: 5px;
+}
+#footer .box.contact .box-contact .contact a {
+	color: #231f20;
+	text-decoration: none;
+	display: inline-block;
+}
+#footer .box.contact .box-contact .contact:hover a {
+	color: #ef4339;
+}
+
+#footer .box.contact .socail h4{
+	font-size: 13px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin-top: 5px;
+}
+#footer .box.contact .box-body ul li {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#footer .box.contact .box-body ul li:first-child {
+	padding-left: 0;
+}
+#footer .box.contact .box-body ul li:last-child {
+	padding-right: 0;
+}
+
+#footer .box.contact .box-body ul li.twitter a{
+	background: #1da1f2;
+}
+#footer .box.contact .box-body ul li.facebook a{
+	background: #3b5998;
+}
+#footer .box.contact .box-body ul li.printerest a{
+	background: #bd081c;
+}
+#footer .box.contact .box-body ul li.google-plus a{
+	background: #dd4b39;
+}
+#footer .box.contact .box-body ul li.instagram a{
+	background: #1e88e5;
+}
+#footer .box.contact .box-body ul li.youtube a{
+	background: #ff0000;
+}
+#footer .box.contact .box-body ul li a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	padding: 5px;
+}
+
+#footer .box.contact .box-body ul li a i{
+	margin: 0;
+	font-size: 15px;
+}
+
+/* Footer bot */
+#foot-bot{
+	background-color: #eaeced;
+	color: #9b9b9b;
+	font-size: 12px;
+	text-align: center;
+}
+#foot-bot p#copyright {
+	margin-bottom: 0;
+	padding: 10px 0;
+}
+
+/* back top */
+#foot-bot #back-to-top {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	cursor: pointer;
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	font-size: 18px;
+	border-radius: 3px;
+	background-color: #ef4339;
+	color: #fff;
+	z-index: 999;
+}
+
+
